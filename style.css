@@ -1,0 +1,125 @@
+html {
+  display: block;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.css-logo {
+  text-align: center;
+}
+.banner {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(49, 168, 221, 0.2),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("./img/banner.png");
+  height: 540px;
+  padding-top: 60px;
+  border-bottom: 1px solid #33a8db;
+}
+.banner-content {
+  text-align: center;
+  width: 600px;
+  height: 500px;
+  margin: auto;
+}
+.banner-content h1 {
+  font-size: 2.3rem;
+  font-weight: 900;
+  color: transparent;
+  background: -webkit-linear-gradient(#33a8db, #1472b7);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.banner-content p {
+  font-size: 1.25rem;
+}
+
+.banner-content button {
+  color: #33a8db;
+  font-weight: bold;
+  background: transparent;
+  text-decoration: none;
+  letter-spacing: 4px;
+  border: 2px solid #33a8db;
+  padding: 20px 25px;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+#aprender {
+  width: 800px;
+  text-align: center;
+  margin: 100px auto;
+}
+.tópicos {
+  display: grid;
+  place-items: center;
+  gap: 20px;
+}
+.módulo {
+  text-align: center;
+  border: 1px solid #33a8db;
+  border-radius: 57px;
+  width: 532px;
+  background-color: #252525;
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
+}
+span {
+  color: #33a8db;
+}
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #33a8db;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+p {
+  color: white;
+}
+#transforme {
+  background-image: url("./img/woman-code.png");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 560px;
+  border-top: 1px solid #33a8db;
+  border-bottom: 1px solid #33a8db;
+  margin: 100px auto;
+}
+#transforme p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2.3rem;
+  text-transform: lowercase;
+  max-width: 250px;
+  text-shadow: 3px 2px #33a8db;
+  margin: 200px;
+}
+#desafios {
+  width: 800px;
+  text-align: center;
+  margin: 100px auto;
+}
+footer {
+  border-top: 1px solid #33a8db;
+  background-image: linear-gradient(
+    rgba(50, 168, 219, 0),
+    rgba(50, 168, 219, 0.2)
+  );
+  text-align: center;
+  padding: 60px;
+}
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+}
